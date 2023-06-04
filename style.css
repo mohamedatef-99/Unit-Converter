@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+h1 {
+    text-align: center;
+  }
+  
+div {
+    margin-top: 20px;
+  }
+  
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+  }
+  
+select {
+    padding: 5px;
+  }
+  
+button {
+    padding: 5px 10px;
+  }
+  
