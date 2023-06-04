@@ -1,10 +1,9 @@
 function convert() {
-    // Get input values
     var inputValue = parseFloat(document.getElementById("inputValue").value);
     var fromUnit = document.getElementById("fromUnit").value;
     var toUnit = document.getElementById("toUnit").value;
   
-    // Perform the conversion
+
     var result;
     if (fromUnit === "cm" && toUnit === "inch") {
       result = inputValue / 2.54;
@@ -26,7 +25,7 @@ function convert() {
       result = inputValue;
     }
   
-    // Display the result
+
     document.getElementById("result").innerHTML = result.toFixed(2) + " " + toUnit;
   }
   
